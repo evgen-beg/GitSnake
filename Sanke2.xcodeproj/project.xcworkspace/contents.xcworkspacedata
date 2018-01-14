@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Sanke2.xcodeproj">
+      location = "self:/Users/evgen/Documents/Programming/Swift/Swift_1/Swift_Course1/Sanke2/Sanke2.xcodeproj">
    </FileRef>
 </Workspace>
