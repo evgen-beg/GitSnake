@@ -58,15 +58,14 @@ class GameViewController: UIViewController {
         // Release any cached data, images, etc that aren't in use.
     }
                                                                     // спрячет статус бар
-//    override var prefersStatusBarHidden: Bool {
-//        return true
-//    }
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
     
 
     
     // Я неопнял как вызвать эту функцию когда змея врезается в стену
     
-
     @IBAction func rstAcion(_ sender: UIButton) {
         let alert = UIAlertController(title: "Загаловок", message: "Сообщение", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
